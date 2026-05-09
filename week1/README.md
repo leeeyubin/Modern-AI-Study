@@ -21,11 +21,11 @@
    ```
    "I love cats" → most similar
    ```
-- VPS
-- Qdrant
-- 오케스트레이션
-- 파인튜닝
-- RAG
+- `VPS` : A remote computer user rent from a hosting provider. 
+- `Qdrant`: A database built specifically for vectors.
+- `Orchestration` : Managing when, in what order, and how a series of tasks should run - including what happens if something fails.
+- `Fine-Tuning` : Taking a pre-trained model(like GPT, BERT) and continuing to train it on your own specific data so it gets better at your particular task.
+- `RAG` : Retrieval Augmented Generation. Instead of baking knowledge into the model, fetching relevant information at query time and hand it to the LLM as context.
 
 ## Prompt
 
