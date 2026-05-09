@@ -39,3 +39,5 @@
 
 ## How can we handle?
 
+## Note
+> You won't be replaced by AI. You'll be a competent engineer who knows how to use AI
