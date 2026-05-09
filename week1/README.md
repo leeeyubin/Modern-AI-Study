@@ -27,7 +27,11 @@
 - `Fine-Tuning` : Taking a pre-trained model(like GPT, BERT) and continuing to train it on your own specific data so it gets better at your particular task.
 - `RAG` : Retrieval Augmented Generation. Instead of baking knowledge into the model, fetching relevant information at query time and hand it to the LLM as context.
 
-## Prompt
+## Prompting
+- `zero-shot` : The prompt used to interact with the model won't contain examples or demonstrations.
+- `few-shot` : The demonstrations serve as conditioning for subsequent examples where we would like the model to generate a response.
+- `Chain-of-Thought` : CoT prompting enables complex reasoning capabilities through intermediate reasoning steps.
+<img width="600" src="https://github.com/user-attachments/assets/1799dce2-8792-4a1e-9fbc-16c8e7cd9ec1" />
 
 ## LLM
 
