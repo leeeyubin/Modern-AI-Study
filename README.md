@@ -2,4 +2,11 @@
 
 This repository contains my notes and experiments while studying modern AI-powered software engineering workflows.
 
-- 🔗 [The Modern Software Developer](https://themodernsoftware.dev/)
+- 🔗 Course: [The Modern Software Developer](https://themodernsoftware.dev/)
+- 🔗 Github: [modern-software-dev-assignments](https://github.com/mihail911/modern-software-dev-assignments/tree/master)
+
+## Study
+|                                                             Title                                                              |  Week |    Date    | 
+|:------------------------------------------------------------------------------------------------------------------------------:|:-------:|:----------:|
+| [LLM Prompting Playground](https://github.com/leeeyubin/Modern-AI-Study/tree/main/week1)  |   01    | 2026.05.09 | 
+
