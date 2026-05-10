@@ -34,7 +34,7 @@
 <img width="600" src="https://github.com/user-attachments/assets/1799dce2-8792-4a1e-9fbc-16c8e7cd9ec1" />
 
 ## LLM
-> - practice multiple prompting techniques
+- 🔗 [Practice multiple prompting techniques](https://github.com/leeeyubin/Modern-AI-Study/blob/main/week1/chain_of_thought.py)
 
 - Step 1) Install locally on your machine called Ollama
 ```bash
@@ -73,9 +73,24 @@ Always end your response with the final answer on its own line as: Answer: <numb
 <img width="650" src="https://github.com/user-attachments/assets/2a5ff8e0-fe59-4e4e-9b66-bae0aa1a77fc" />
 
 
-## RAG
-
 ## How can we handle?
+```
+ RAG Pipeline
+1. Indexing (사전 작업)
+   - 문서/데이터를 청킹
+   - 임베딩 모델(BERT 등)로 벡터 변환
+   - Qdrant 같은 Vector DB에 저장
 
-## Note
+2. Query (런타임)
+   - 사용자 질문도 동일한 임베딩 모델로 벡터 변환
+   - Vector DB에서 Top-K 유사 청크 검색
+   - 질문 + 검색된 청크를 LLM에 컨텍스트로 전달
+   - LLM이 컨텍스트 기반으로 답변 생성
+
+ Prompting 선택 기준
+ - 단순한 지시 → Zero-shot
+ - 출력 포맷/스타일 통일 필요 → Few-shot
+ - 수학, 논리처럼 단계적 추론 필요 → Chain-of-Thought
+```
+## 📝 Note
 > You won't be replaced by AI. You'll be a competent engineer who knows how to use AI
