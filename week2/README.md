@@ -84,7 +84,7 @@ week2/frontend/index.html — Extract LLM 버튼, List Notes 버튼 추가
 ### ✅ Exercise 5: Generate a README from the Codebase
 Prompt: 
 ```
-Analyze the entire codebase and generate a well-structured README.md file that includes:
+Analyze the entire codebase and generate a well-structured Cursor.md file that includes:
 
 A brief overview of the project
 How to set up and run the project
@@ -95,5 +95,5 @@ Save it as README.md in the project root.
 
 Generated Code Snippets:
 ```
-week2/README.md — 새로 생성
+week2/Cursor.md — 새로 생성
 ```
