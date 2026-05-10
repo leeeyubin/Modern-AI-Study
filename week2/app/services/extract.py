@@ -114,14 +114,13 @@ def extract_action_items_llm(text: str) -> List[str]:
     )
 
     raw = response.message.content.strip()
-    print("LLM raw response:", raw)  # 디버깅용
+    print("LLM raw response:", raw)  
 
     try:
         result = json.loads(raw)
         if isinstance(result, list):
             return [str(item) for item in result]
         if isinstance(result, dict):
-            # {"items": [...]} 형태
             for v in result.values():
                 if isinstance(v, list) and len(v) > 0:
                     return [str(item) for item in v]
