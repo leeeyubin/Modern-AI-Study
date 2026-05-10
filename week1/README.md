@@ -34,6 +34,44 @@
 <img width="600" src="https://github.com/user-attachments/assets/1799dce2-8792-4a1e-9fbc-16c8e7cd9ec1" />
 
 ## LLM
+> - practice multiple prompting techniques
+
+- Step 1) Install locally on your machine called Ollama
+```bash
+# mac OS
+brew install --cask ollama && ollama serve
+
+# downlaod model
+ollama run mistral-nemo:12b
+ollama run llama3.1:8b
+```
+
+- Step 2) Fill the prompt
+```python
+YOUR_SYSTEM_PROMPT = """You are a mathematics expert. When solving modular arithmetic problems, use Euler's theorem and find repeating cycles.
+
+Here are examples:
+
+Problem: What is 2^100 (mod 10)?
+Solution: Find the cycle of 2^n mod 10: 2,4,8,6,2,4,8,6... period=4. 100 mod 4 = 0, so use last in cycle = 6.
+Answer: 6
+
+Problem: What is 3^20 (mod 10)?
+Solution: Cycle of 3^n mod 10: 3,9,7,1,3,9,7,1... period=4. 20 mod 4 = 0, so use last in cycle = 1.
+Answer: 1
+
+Problem: What is 7^50 (mod 100)?
+Solution: Find cycle of 7^n mod 100. By Euler's theorem, phi(100)=40, so 7^40 ≡ 1 (mod 100). 50 = 40+10. 7^10 mod 100 = 49.
+Answer: 49
+
+Always end your response with the final answer on its own line as: Answer: <number>
+"""
+```
+
+- Step 3) Check the result
+
+<img width="650" src="https://github.com/user-attachments/assets/2a5ff8e0-fe59-4e4e-9b66-bae0aa1a77fc" />
+
 
 ## RAG
 
