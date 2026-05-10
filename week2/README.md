@@ -76,7 +76,7 @@ Save it as README.md in the project root.
 ``` 
 
 Generated Code Snippets:
-- 🔗 [Courosr.md](https://github.com/leeeyubin/Modern-AI-Study/blob/main/week2/tests/Cursor.md)
+- 🔗 [Courosr.md](https://github.com/leeeyubin/Modern-AI-Study/blob/main/week2/Cursor.md)
 
 ```
 week2/Cursor.md — 새로 생성
