@@ -1,7 +1,7 @@
 # The Anatomy of Coding Agents
 
 ## Demo
-
+- 🔗 [index.html](https://github.com/leeeyubin/Modern-AI-Study/blob/main/week2/frontend/index.html)
 <img width="700" src="https://github.com/user-attachments/assets/d587c8fb-b799-45c8-a337-750737ac8f09" />
 
 ## File Structure
@@ -76,6 +76,8 @@ Save it as README.md in the project root.
 ``` 
 
 Generated Code Snippets:
+- 🔗 [Courosr.md](https://github.com/leeeyubin/Modern-AI-Study/blob/main/week2/tests/Cursor.md)
+
 ```
 week2/Cursor.md — 새로 생성
 ```
