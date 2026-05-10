@@ -25,7 +25,7 @@ week2/
 ## YOUR RESPONSES
 For each exercise, please include what prompts you used to generate the answer, in addition to the location of the generated response. Make sure to clearly add comments in your code documenting which parts are generated.
 
-### Exercise 1: Scaffold a New Feature
+### ✅ Exercise 1: Scaffold a New Feature
 Prompt: 
 ```
 Implement extract_action_items_llm() function in extract.py that uses Ollama to extract action items via LLM. It should return a JSON array of strings, handle empty input, and handle cases where the model returns a dict instead of a list.
@@ -36,7 +36,7 @@ Generated Code Snippets:
 week2/app/services/extract.py — extract_action_items_llm() 함수 추가 (하단)
 ```
 
-### Exercise 2: Add Unit Tests
+### ✅ Exercise 2: Add Unit Tests
 Prompt: 
 ```
 Write unit tests for extract_action_items_llm() covering: bullet list input, empty input, keyword-prefixed input, dict response from model, and invalid JSON response. Use unittest.mock to mock the ollama chat call.
@@ -53,7 +53,7 @@ test_llm_dict_response()
 test_llm_invalid_json()
 ```
 
-### Exercise 3: Refactor Existing Code for Clarity
+### ✅ Exercise 3: Refactor Existing Code for Clarity
 Prompt:
 ```
 Refactor the backend focusing on: well-defined API schemas using Pydantic, database layer cleanup, app lifecycle using lifespan instead of init_db() at module load, and improved error handling.
@@ -67,7 +67,7 @@ week2/app/routers/notes.py — Dict[str, Any] → Pydantic 스키마 적용, GET
 week2/app/main.py — lifespan 방식으로 변경
 ```
 
-### Exercise 4: Use Agentic Mode to Automate a Small Task
+### ✅ Exercise 4: Use Agentic Mode to Automate a Small Task
 Prompt: 
 ```
 Add a new endpoint POST /action-items/extract-llm that uses extract_action_items_llm() for LLM-based extraction.
@@ -81,7 +81,7 @@ week2/app/routers/action_items.py — /extract-llm 엔드포인트 추가
 week2/frontend/index.html — Extract LLM 버튼, List Notes 버튼 추가
 ```
 
-### Exercise 5: Generate a README from the Codebase
+### ✅ Exercise 5: Generate a README from the Codebase
 Prompt: 
 ```
 Analyze the entire codebase and generate a well-structured README.md file that includes:
