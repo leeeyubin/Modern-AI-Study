@@ -8,6 +8,6 @@ This repository contains my notes and experiments while studying modern AI-power
 ## Study
 |                                                             Title                                                              |  Week |    Date    | 
 |:------------------------------------------------------------------------------------------------------------------------------:|:-------:|:----------:|
-| [Introduction to Coding LLMs and AI Development](https://github.com/leeeyubin/Modern-AI-Study/tree/main/week1)  |   01    | 2026.05.09 | 
+| [LLM Prompting Playground](https://github.com/leeeyubin/Modern-AI-Study/tree/main/week1)  |   01    | 2026.05.09 | 
 | [The Anatomy of Coding Agents](https://github.com/leeeyubin/Modern-AI-Study/tree/main/week2)  |   02    | 2026.05.10 | 
 
