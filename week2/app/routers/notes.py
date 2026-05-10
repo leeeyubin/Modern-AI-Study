@@ -24,7 +24,6 @@ def create_note(payload: NoteCreateRequest) -> NoteResponse:
 
 @router.get("", response_model=List[NoteResponse])
 def list_notes() -> List[NoteResponse]:
-    # 전체 노트 목록 반환
     rows = db.list_notes()
     return [
         NoteResponse(id=r["id"], content=r["content"], created_at=r["created_at"])
