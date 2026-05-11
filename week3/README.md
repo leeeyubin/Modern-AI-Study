@@ -40,6 +40,7 @@ The direction of travel: **Local Development → Collaborative Cloud Agents**
 ## Build a Custom MCP Server
 
 #### Weather MCP Server
+- Demo 
 
 <img width="750" src="https://github.com/user-attachments/assets/25c49a22-066d-44fa-873f-1a38cfa8e90a" />
 
@@ -85,3 +86,27 @@ Claude Desktop
   → Claude가 도구 목록 받아서 사용
 ```
 
+1) 서버 선언
+```python
+server = Server("weather-server")
+```
+
+2) 도구 등록
+```python
+@server.list_tools()
+async def list_tools():
+    return [get_current_weather, get_forecast]
+```
+
+3) 도구 실행
+```python
+@server.call_tool()
+async def call_tool(name, arguments):
+    if name == "get_current_weather":
+```
+4) STDIO 연결
+
+```python
+async with stdio_server() as (read, write):
+    await server.run(read, write, ...)
+```
