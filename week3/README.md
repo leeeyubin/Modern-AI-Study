@@ -76,3 +76,12 @@ week3/
 └── server/
     └── main.py   # MCP server entrypoint
 ```
+#### Flow
+```
+Claude Desktop
+  → claude_desktop_config.json 읽음
+  → main.py 자동 실행
+  → main.py가 MCP 서버로 동작
+  → Claude가 도구 목록 받아서 사용
+```
+
