@@ -12,5 +12,4 @@ This repository contains my notes and experiments while studying modern AI-power
 | [The Anatomy of Coding Agents](https://github.com/leeeyubin/Modern-AI-Study/tree/main/week2)  |   02    | 2026.05.10 | 
 | [The AI IDE](https://github.com/leeeyubin/Modern-AI-Study/tree/main/week3)  |   03    | 2026.05.11 | 
 | [Coding Agent Patterns](https://github.com/leeeyubin/Modern-AI-Study/tree/main/week4)  |   04    | 2026.05.12 | 
-| [The Modern Terminal](https://github.com/leeeyubin/Modern-AI-Study/tree/main/week5)  |   05    | 2026.05.17 | 
 
